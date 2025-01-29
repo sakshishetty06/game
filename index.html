@@ -15,7 +15,7 @@
         }
         canvas {
             border: 3px solid white;
-            background-color: black;
+            background-color: pink;
         }
     </style>
 </head>
@@ -56,10 +56,10 @@
         function draw() {
             if (gameOver) return;
 
-            ctx.fillStyle = "black";
+            ctx.fillStyle = "pink";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx.fillStyle = "red";
+            ctx.fillStyle = "yellow";
             ctx.fillRect(food.x, food.y, box, box);
 
             ctx.fillStyle = "lime";
